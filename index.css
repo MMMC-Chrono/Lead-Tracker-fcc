@@ -1,7 +1,27 @@
+:root {
+    --color: #a0e7ff;
+}
+
 body {
     margin: 0;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    background-color:black;
 }
 
+input {
+    width: 100%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border: 3px solid var(--color);
+}
+
+button {
+    background-color: var(--color);
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    margin-top: 5px;
+}
 
